@@ -3,4 +3,6 @@ node_js:
   - "14"
 
 script:
+  - echo $NVM_NODEJS_ORG_MIRROR
+  - nvm install 10.22.0 -vvv
   - echo "this is it"
